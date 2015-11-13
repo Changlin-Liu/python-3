@@ -1,4 +1,10 @@
 import socket, time, threading
+"""
+服务端处理流程：
+建立socket--》绑定端口--》监听端口--》接受连接--》处理连接--》关闭连接
+处理连接：
+接受客户端数据--》处理数据--》向客户端返回数据
+"""
 # 建立socket
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 # 绑定端口
