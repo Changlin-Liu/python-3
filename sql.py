@@ -2,7 +2,7 @@
 # 导入数据库驱动
 import sqlite3
 # 连接数据库
-conn = sqlite3.connect('test.db')
+conn = sqlite3.connect(r'D:\test.db')
 # 创建游标
 cursor = conn.cursor()
 # 在游标内进行数据库操作
