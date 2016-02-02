@@ -13,7 +13,7 @@ def _formate_addr(s):
 
 from_addr = '13240363594@163.com'
 password = '******'
-to_addr = '502434432@qq.com'
+to_addr = 'perfect_0426@qq.com'
 smtp_server = 'smtp.163.com'
 
 # MIMEText对象：正文 数据类型 编码

@@ -15,7 +15,7 @@ def _format_addr(s):
 
 sender = 'zabbix@admin.com'
 password = '******'
-receiver = '502434432@qq.com'
+receiver = 'perfect_0426@qq.com'
 
 # 添加邮件格式
 msg = MIMEMultipart('alternative')

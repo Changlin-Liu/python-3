@@ -21,7 +21,7 @@ def _format_addr(s):
 
 from_addr = '13240363594@163.com'
 password = '******'
-to_addr = '502434432@qq.com'
+to_addr = 'perfect_0426@qq.com'
 smtp_server = 'smtp.163.com'
 
 msg = MIMEMultipart()
