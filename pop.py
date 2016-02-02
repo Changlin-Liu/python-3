@@ -5,7 +5,7 @@ from email.header import decode_header
 from email.utils import parseaddr
 
 email = '13240363594@163.com'
-password = 'albnwhuwneurszaj'
+password = '******'
 pop3_server = 'pop.163.com'
 
 # 获取邮件编码方式
