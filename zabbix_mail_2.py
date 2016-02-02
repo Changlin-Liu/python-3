@@ -11,7 +11,7 @@ import os
 
 def mail(receiver, subject, abs_path_files):
 
-    send_addr = 'zabbix@quxiu8.com'
+    send_addr = 'zabbix@admin.com'
     password = '******'
 
     msg = MIMEMultipart()

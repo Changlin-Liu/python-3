@@ -25,7 +25,7 @@ to_addr = '502434432@qq.com'
 smtp_server = 'smtp.163.com'
 smtp_port = 25
 """
-from_addr = 'zabbix@quxiu8.com'
+from_addr = 'zabbix@admin.com'
 password = '******'
 to_addr = '502434432@qq.com'
 smtp_server = 'smtp.exmail.qq.com'

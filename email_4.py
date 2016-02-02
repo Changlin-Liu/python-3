@@ -13,7 +13,7 @@ def _format_addr(s):
     name, addr = parseaddr(s)
     return formataddr((Header(name, 'utf-8').encode(), addr))
 
-sender = 'zabbix@quxiu8.com'
+sender = 'zabbix@admin.com'
 password = '******'
 receiver = '502434432@qq.com'
 
@@ -28,7 +28,7 @@ html = """
 <html>
     <body>
     测试页面
-    <a href="http://www.quxiu8.com">秀美甲首页</a>
+    <a href="http://www.admin.com">ceshi</a>
     <p><img src="cid:images1"></p>
     </body>
 </html>
