@@ -14,7 +14,7 @@ def _format_addr(s):
     return formataddr((Header(name, 'utf-8').encode(), addr))
 
 sender = 'zabbix@quxiu8.com'
-password = 'wiquxiu81001'
+password = '******'
 receiver = '502434432@qq.com'
 
 # 添加邮件格式

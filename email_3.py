@@ -20,13 +20,13 @@ def _format_addr(s):
     return formataddr((Header(name, 'utf-8').encode(), addr))
 """
 from_addr = '13240363594@163.com'
-password = 'albnwhuwneurszaj'
+password = '******'
 to_addr = '502434432@qq.com'
 smtp_server = 'smtp.163.com'
 smtp_port = 25
 """
 from_addr = 'zabbix@quxiu8.com'
-password = 'wiquxiu81001'
+password = '******'
 to_addr = '502434432@qq.com'
 smtp_server = 'smtp.exmail.qq.com'
 smtp_port = 587
@@ -40,7 +40,7 @@ msg.attach(MIMEText('<html><body><h1>Hello</h1>' +
     '<p><img src="cid:0"</p>' +
     '</body></html>', 'html', 'utf-8'))
 
-with open(r'D:\thumb.jpg', 'rb') as f:
+with open(r'D:\test.jpg', 'rb') as f:
     #设置附件的mime[即content-type等信息]
     mime = MIMEBase('images', 'jpeg', filename='thumb.jpg')
     # 添加mime头部信息

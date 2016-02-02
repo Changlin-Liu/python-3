@@ -12,7 +12,7 @@ import os
 def mail(receiver, subject, abs_path_files):
 
     send_addr = 'zabbix@quxiu8.com'
-    password = 'wiquxiu81001'
+    password = '******'
 
     msg = MIMEMultipart()
     msg['Subject'] = Header(subject, 'utf-8')
